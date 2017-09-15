@@ -5,7 +5,7 @@ import os
 from collections import OrderedDict
 
 os.system('grep gcc compilation_log  > compiler_cmds')
-os.system('grep g++ compilation_log  >> compiler_cmds')
+#os.system('grep g++ compilation_log  >> compiler_cmds')
 
 flag_file = open('compiler_cmds', 'r')
 
